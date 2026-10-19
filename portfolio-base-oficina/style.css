@@ -1,0 +1,127 @@
+/* ✦ bem-vinda ao seu arquivo de estilos! ✦ */
+/* as cores, os tamanhos e as fontes do seu site ficam por aqui. */
+/* dica: mude uma coisa de cada vez e confira o resultado! */
+
+:root {
+  /* 🎨 quer mudar as cores do site? comece por aqui! */
+  --cor-fundo: #faf8f4;        /* cor do fundo principal */
+  --cor-texto: #272333;        /* cor da fonte principal */
+  --cor-destaque: #7959ae;     /* cor de títulos, detalhes e botões */
+  --cor-destaque-clara: #ece5fa; /* cor dos elementos delicados */
+  --cor-cartao: #ffffff;       /* cor dos cards */
+  --cor-linha: #ddd5e4;        /* cor de bordas e linhas */
+  --cor-suave: #6e6876;        /* cor de textos menores */
+}
+
+/* quer testar outra fonte? altere o nome depois de font-family. */
+/* exemplos: georgia (clássica), arial (simples), verdana (arredondada). */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--cor-fundo); color: var(--cor-texto); font-family: Arial, Helvetica, sans-serif; line-height: 1.65; }
+a { color: inherit; text-decoration: none; }
+.container { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
+
+.cabecalho { border-bottom: 1px solid var(--cor-linha); }
+.navegacao { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.marca { font-size: 1.45rem; font-weight: 800; letter-spacing: -.08em; }
+.marca span:not(.ponto) { font-weight: 400; }
+.ponto { color: var(--cor-destaque); }
+nav { display: flex; gap: 34px; font-size: .87rem; font-weight: 700; }
+nav a:hover, .rodape a:hover { color: var(--cor-destaque); }
+
+.hero { min-height: 600px; padding-block: 88px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; }
+.etiqueta, .rotulo-secao { text-transform: uppercase; font-size: .76rem; font-weight: 800; letter-spacing: .17em; color: var(--cor-destaque); }
+.estrelinha { font-size: 1.1rem; margin-right: 6px; }
+h1,h2,h3,p { margin-top: 0; }
+h1,h2 { letter-spacing: -.055em; line-height: 1.12; }
+h1 { font-size: clamp(3.25rem, 6.5vw, 5.7rem); margin: 20px 0 26px; font-weight: 800; }
+h1 .destaque { color: var(--cor-destaque); display: inline-block; }
+.asterisco { font-size: .47em; vertical-align: top; margin-left: 5px; }
+.descricao-hero { max-width: 465px; font-size: 1.17rem; color: var(--cor-suave); }
+.acoes { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.botao { display: inline-flex; min-height: 48px; align-items: center; gap: 18px; padding: 11px 22px; border: 1px solid var(--cor-destaque); border-radius: 7px; font-size: .88rem; font-weight: 700; transition: transform .2s; }
+.botao:hover { transform: translateY(-3px); }
+.botao-principal { background: var(--cor-destaque); color: white; }
+.botao-secundario { color: var(--cor-destaque); }
+.detalhe-hero { margin-top: 38px; font-family: Georgia, serif; font-style: italic; font-size: .94rem; color: var(--cor-suave); }
+
+.hero-arte { min-height: 440px; position: relative; display: grid; place-items: center; }
+.orbita { position: absolute; border: 1px solid var(--cor-linha); border-radius: 50%; }
+.orbita-um { width: 390px; height: 390px; }
+.orbita-dois { width: 325px; height: 325px; transform: rotate(17deg); border-style: dashed; }
+.cartao-perfil { width: 274px; height: 345px; background: var(--cor-destaque-clara); border: 1px solid var(--cor-linha); border-radius: 145px 145px 16px 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 21px 20px 0 rgba(121,89,174,.1); transform: rotate(-5deg); position: relative; }
+.cartao-icone { position: absolute; top: 43px; font-weight: 800; font-size: 1rem; color: var(--cor-destaque); }
+.iniciais { font-family: Georgia,serif; font-size: 7rem; line-height: 1; letter-spacing: -.11em; color: var(--cor-destaque); padding-right: .1em; }
+.cartao-legenda { position: absolute; bottom: 54px; font-size: .73rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 800; }
+.spark { position: absolute; color: var(--cor-destaque); font-size: 42px; z-index: 1; }
+.spark-um { top: 48px; right: 33px; }
+.spark-dois { left: 17px; bottom: 69px; }
+.adesivo { position: absolute; right: 0; bottom: 50px; background: white; padding: 12px 18px; transform: rotate(7deg); border: 1px solid var(--cor-linha); border-radius: 8px; font-family: Georgia,serif; font-style: italic; box-shadow: 4px 6px 0 rgba(121,89,174,.12); }
+
+.secao-sobre { background: var(--cor-destaque-clara); padding: 96px 0; }
+.grade-sobre { display: grid; grid-template-columns: .9fr 1.1fr; gap: 85px; }
+h2 { font-size: clamp(2.5rem, 4.7vw, 4.15rem); margin: 18px 0 0; }
+h2 em { font-family: Georgia,serif; font-weight: 400; color: var(--cor-destaque); }
+.texto-sobre { font-size: 1.06rem; }
+.texto-sobre p { margin-bottom: 17px; }
+.interesses { margin-top: 30px; border-top: 1px solid var(--cor-linha); padding-top: 22px; }
+.interesses>span { display: block; font-weight: 800; margin-bottom: 14px; font-size: .83rem; }
+.tags,.lista-habilidades { display: flex; flex-wrap: wrap; gap: 10px; }
+.tags span { padding: 6px 13px; background: rgba(255,255,255,.7); border: 1px solid var(--cor-linha); border-radius: 100px; font-size: .84rem; }
+
+.secao-projetos { padding-block: 105px 115px; }
+.cabecalho-secao { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 40px; }
+.apoio-secao { color: var(--cor-suave); max-width: 270px; margin: 0; font-size: .95rem; }
+.grade-projetos { display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; }
+.card-projeto { overflow: hidden; border: 1px solid var(--cor-linha); background: var(--cor-cartao); border-radius: 13px; transition: transform .2s,box-shadow .2s; }
+.card-projeto:hover { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(39,35,51,.07); }
+.imagem-projeto { height: 260px; display: grid; place-items: center; position: relative; }
+.desenho-um { background: #e7dbee; color: #a26cac; }
+.desenho-dois { background: #dcece7; color: #649b8f; }
+.simbolo-grande { font-family: Georgia,serif; font-size: 10rem; line-height: 1; }
+.numero { position: absolute; top: 20px; right: 23px; font-family: Georgia,serif; font-size: 1.3rem; }
+.conteudo-projeto { padding: 26px 28px; }
+.tipo-projeto { text-transform: uppercase; letter-spacing: .12em; color: var(--cor-destaque); font-size: .72rem; font-weight: 800; }
+h3 { font-size: 1.42rem; letter-spacing: -.035em; margin: 7px 0 9px; }
+.conteudo-projeto>p:not(.tipo-projeto) { color: var(--cor-suave); min-height: 52px; font-size: .95rem; }
+.rodape-projeto { display: flex; justify-content: space-between; border-top: 1px solid var(--cor-linha); padding-top: 17px; font-size: .82rem; font-weight: 700; }
+.rodape-projeto span:last-child { font-size: 1.15rem; }
+
+.secao-habilidades { background: #f0ece7; padding: 92px 0; }
+.grade-habilidades { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 65px; }
+.grade-habilidades p:last-child { color: var(--cor-suave); margin: 24px 0 0; max-width: 410px; }
+.lista-habilidades { gap: 13px; justify-content: center; }
+.lista-habilidades span { background: var(--cor-cartao); border: 1px solid var(--cor-linha); border-radius: 100px; padding: 13px 20px; font-weight: 700; font-size: .91rem; }
+
+.secao-contato { padding: 100px 0; }
+.contato-caixa { background: var(--cor-destaque-clara); border-radius: 16px; min-height: 410px; padding: 75px 30px; text-align: center; position: relative; overflow: hidden; }
+.contato-estrela { position: absolute; left: 11%; top: 15%; font-size: 3rem; color: var(--cor-destaque); }
+.contato-caixa h2 { font-size: clamp(2.4rem, 4.6vw, 4.15rem); }
+.contato-caixa>p:not(.rotulo-secao) { color: var(--cor-suave); margin: 24px auto; max-width: 420px; }
+.links-contato { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 27px; }
+.links-contato a { background: var(--cor-destaque); color: white; font-size: .88rem; font-weight: 800; padding: 12px 24px; border-radius: 7px; }
+.links-contato a:hover { filter: brightness(.9); }
+.rodape { border-top: 1px solid var(--cor-linha); }
+.rodape-conteudo { min-height: 82px; display: flex; justify-content: space-between; align-items: center; gap: 15px; font-size: .82rem; color: var(--cor-suave); }
+
+/* 📱 esta parte faz o site caber em telas menores, como celulares. */
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; padding-block: 65px; }
+  .hero-arte { min-height: 360px; }
+  .orbita-um { width: 315px; height: 315px; }
+  .orbita-dois { width: 260px; height: 260px; }
+  .cartao-perfil { width: 235px; height: 295px; }
+  .grade-sobre, .grade-habilidades { grid-template-columns: 1fr; gap: 25px; }
+  .cabecalho-secao { align-items: start; flex-direction: column; }
+  .grade-projetos { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .container { width: min(100% - 30px,1120px); }
+  .navegacao { min-height: 75px; }
+  nav { gap: 13px; font-size: .78rem; }
+  .hero { padding-top: 55px; }
+  .secao-sobre,.secao-projetos,.secao-habilidades,.secao-contato { padding-block: 65px; }
+  .imagem-projeto { height: 210px; }
+  .contato-caixa { padding: 64px 20px; }
+  .rodape-conteudo { flex-direction: column; justify-content: center; padding: 15px 0; }
+}
