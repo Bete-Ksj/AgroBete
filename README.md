@@ -1,41 +1,83 @@
-# minha marca na tech — meu primeiro portfólio ✳
+# ˙⋆✮⋆˚࿔ Minha Marca na Tech — Meu Primeiro Portfólio
 
-um modelo simples para quem está criando seu primeiro portfólio. feito com **html + css**, sem instalar nada e sem precisar usar javascript.
+Um modelo simples para quem está criando seu primeiro portfólio! Feito com **HTML + CSS**, sem precisar instalar nada ou utilizar JavaScript. ⋆.𐙚 ̊
 
-## quais arquivos eu preciso editar?
+## ⋆˚꩜｡ Quais arquivos eu preciso editar?
 
-- `index.html`: suas informações, apresentação, projetos, habilidades e links.
-- `style.css`: cores, fontes, tamanhos e aparência do site.
+- `index.html`: Suas informações, apresentação, projetos, habilidades e links.
+- `style.css`: Cores, fontes, tamanhos e aparência do site.
 
-## desafios da oficina
+## ⋆˚꩜｡ Desafios da Oficina
 
-1. no `index.html`, procure o comentário `mude seu nome e sua frase de apresentação aqui!` e coloque seu nome e sua apresentação.
-2. no `style.css`, encontre `:root` no início do arquivo e troque `--cor-destaque` por outra cor. exemplo: `#d45b93` (rosa) ou `#287f79` (verde).
-3. no `index.html`, procure `projeto 1` e substitua o título e a descrição por um projeto, atividade escolar ou ideia sua.
-4. se quiser, mude os interesses, as habilidades e os links das redes sociais.
-5. salve as alterações no github e atualize o site publicado.
+**1. Quem sou eu? ⋆.𐙚 ̊**
 
-## como criar seu projeto a partir do modelo?
+No arquivo `index.html`, procure o comentário `mude seu nome e sua frase de apresentação aqui!` e substitua as informações de exemplo pelo seu nome e sua apresentação.
 
-1. abra o repositório-modelo no github.
-2. clique em **use this template** → **create a new repository**. esse botão aparece depois que as organizadoras marcarem o repositório como template.
-3. escolha um nome para o repositório e crie-o como **public**, caso queira publicá-lo gratuitamente.
-4. abra `index.html` ou `style.css`, clique no ícone de lápis para editar e, depois, em **commit changes** para salvar.
+**2. Minha identidade visual! ⋆.𐙚 ̊**
 
-## como colocar o site no ar na vercel?
+No arquivo `style.css`, encontre `:root`, no início do arquivo, e altere a variável `--cor-destaque` para uma cor que combine com você!
 
-1. entre em https://vercel.com com o github.
-2. escolha **add new → project**.
-3. importe seu novo repositório.
-4. como este é um site html e css, use **framework preset: other**, sem comando de build e com diretório de saída na raiz do projeto (ou o padrão indicado pela plataforma, se já compatível).
-5. clique em **deploy**, abra o endereço gerado e confira se o site está funcionando.
+Algumas sugestões:
+- Rosa: `#d45b93`
+- Verde: `#287f79`
+- Lilás: `#9b7bc7`
+- Azul: `#648acb`
 
-## dicas importantes
+**3. Meus projetos e experiências! ⋆.𐙚 ̊**
 
-- substitua os links de exemplo pelos seus. não publique dados pessoais que você prefira manter privados.
-- se algo parar de funcionar, confira se você não apagou sem querer um `<`, `>` ou `"`.
-- no css, os códigos com `#` representam cores. você pode pesquisar por **seletor de cores hex** para encontrar a sua.
-- para testar no computador, basta abrir o arquivo `index.html` no navegador.
-- você não precisa ter experiência profissional para começar seu portfólio: trabalhos escolares e projetos em desenvolvimento também contam!
+No arquivo `index.html`, procure `projeto 1` e substitua o título e a descrição por um projeto, atividade escolar ou ideia que você gostaria de apresentar.
 
-feito para a oficina **minha marca na tech: criando meu primeiro portfólio** ♡
+**4. Deixando tudo com a minha cara! ⋆.𐙚 ̊**
+
+Se quiser, personalize também seus interesses, habilidades e links das redes sociais.
+
+**5. Meu portfólio na internet! ⋆.𐙚 ̊**
+
+Salve suas alterações no GitHub e atualize seu site publicado para visualizar o resultado!
+
+## ⋆˚꩜｡ Como criar meu projeto a partir do modelo?
+
+1. Acesse o repositório-modelo da oficina no GitHub.
+2. Clique em **Use this template → Create a new repository**.
+3. Escolha um nome para o seu repositório e marque a opção **Public**.
+4. Clique em **Create repository** para criar sua própria cópia do projeto.
+5. Abra o arquivo `index.html` ou `style.css` e clique no ícone de lápis para começar a editar.
+6. Depois de fazer suas alterações, clique em **Commit changes** para salvar!
+
+**Dica:** Cada participante terá sua própria cópia do projeto. Assim, você poderá modificar seu portfólio sem alterar o modelo original. ♡
+
+## ⋆˚꩜｡ Como colocar meu portfólio no ar com a Vercel?
+
+1. Acesse [Vercel](https://vercel.com) e entre utilizando sua conta do GitHub.
+2. No painel inicial, selecione **Add New → Project**.
+3. Encontre o repositório que você criou e clique em **Import**.
+4. Como nosso projeto utiliza apenas HTML e CSS, selecione **Framework Preset: Other**, caso necessário.
+5. Mantenha o projeto sem comando de build e com o diretório de saída na raiz, se essas opções aparecerem.
+6. Clique em **Deploy** e aguarde a publicação.
+7. Quando tudo estiver pronto, abra o link gerado pela Vercel e confira seu portfólio!
+
+**Prontinho!** Agora você tem seu próprio cantinho na internet para compartilhar seus projetos, habilidades e experiências! ⋆.𐙚 ̊
+
+## ⋆˚꩜｡ Dicas Importantes
+
+- **Personalize do seu jeito!** Você pode modificar cores, textos e outras informações para deixar o portfólio com a sua personalidade.
+- **Cuidado com seus dados!** Evite publicar endereço, telefone pessoal ou informações que você prefira manter privadas.
+- **Deu algum erro?** Confira se você não apagou algum `<`, `>` ou `"` sem querer.
+- **Quer descobrir novas cores?** No CSS, os códigos com `#` representam cores. Pesquise por **seletor de cores hex** para encontrar suas favoritas!
+- **Quer testar antes de publicar?** Basta abrir o arquivo `index.html` no navegador.
+- **Ainda não tem projetos?** Sem problemas! Trabalhos escolares, projetos em desenvolvimento e ideias pessoais também podem fazer parte do seu portfólio.
+- **Continue explorando!** Seu portfólio não precisa ficar pronto de uma vez. Você pode atualizá-lo sempre que aprender algo novo.
+
+## ˙⋆✮⋆˚࿔ Um recadinho para você!
+
+Você não precisa ser especialista em programação para começar a construir seu espaço na tecnologia.
+
+Cada projeto, descoberta e aprendizado faz parte da sua trajetória. O mais importante é dar o primeiro passo e continuar explorando suas possibilidades!
+
+**Esse é só o começo de tudo o que você ainda pode criar. ♡**
+
+---
+
+Feito com carinho para a oficina **Minha Marca na Tech: Criando Meu Primeiro Portfólio**. ⋆.𐙚 ̊
+
+**Ministrantes:** Alexia, Vitória, Isabela e Cecília.
