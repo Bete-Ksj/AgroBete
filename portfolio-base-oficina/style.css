@@ -6,11 +6,11 @@
   /* 🎨 quer mudar as cores do site? comece por aqui! */
   --cor-fundo: #faf8f4;        /* cor do fundo principal */
   --cor-texto: #272333;        /* cor da fonte principal */
-  --cor-destaque: #7959ae;     /* cor de títulos, detalhes e botões */
-  --cor-destaque-clara: #ece5fa; /* cor dos elementos delicados */
+  --cor-destaque: #a30101;     /* cor de títulos, detalhes e botões */
+  --cor-destaque-clara: #834747; /* cor dos elementos delicados */
   --cor-cartao: #ffffff;       /* cor dos cards */
-  --cor-linha: #ddd5e4;        /* cor de bordas e linhas */
-  --cor-suave: #6e6876;        /* cor de textos menores */
+  --cor-linha: #c45c5c;        /* cor de bordas e linhas */
+  --cor-suave: #8d5656;        /* cor de textos menores */
 }
 
 /* quer testar outra fonte? altere o nome depois de font-family. */
@@ -76,8 +76,8 @@ h2 em { font-family: Georgia,serif; font-weight: 400; color: var(--cor-destaque)
 .card-projeto { overflow: hidden; border: 1px solid var(--cor-linha); background: var(--cor-cartao); border-radius: 13px; transition: transform .2s,box-shadow .2s; }
 .card-projeto:hover { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(39,35,51,.07); }
 .imagem-projeto { height: 260px; display: grid; place-items: center; position: relative; }
-.desenho-um { background: #e7dbee; color: #a26cac; }
-.desenho-dois { background: #dcece7; color: #649b8f; }
+.desenho-um { background: #8f2e2e; color: #000000; }
+.desenho-dois { background: #8f2e2e; color: #000000; }
 .simbolo-grande { font-family: Georgia,serif; font-size: 10rem; line-height: 1; }
 .numero { position: absolute; top: 20px; right: 23px; font-family: Georgia,serif; font-size: 1.3rem; }
 .conteudo-projeto { padding: 26px 28px; }
@@ -103,6 +103,12 @@ h3 { font-size: 1.42rem; letter-spacing: -.035em; margin: 7px 0 9px; }
 .links-contato a:hover { filter: brightness(.9); }
 .rodape { border-top: 1px solid var(--cor-linha); }
 .rodape-conteudo { min-height: 82px; display: flex; justify-content: space-between; align-items: center; gap: 15px; font-size: .82rem; color: var(--cor-suave); }
+.imagem-projeto img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
 
 /* 📱 esta parte faz o site caber em telas menores, como celulares. */
 @media (max-width: 800px) {
